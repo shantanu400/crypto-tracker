@@ -1,0 +1,67 @@
+.body{
+    background-color: black;
+    
+}
+.coin-tracker{
+    position: relative;
+    width:100%;
+    background-color: black;
+    height:1000px;
+}
+.serach-bar{
+    position: absolute;
+    top:20px;
+    left:20px;
+  
+    width:750px;
+    height:50px;
+    
+    padding: 2px;
+    text-align: left;
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+}
+
+.sort-mkt,.sort-percentage,.search-btn{
+    position:absolute;
+    top:20px;
+    right:20px;
+    width:100px;
+    height: 50px;
+    border: 1px solid white;
+    color:white;
+    background-color:black;
+
+}
+.sort-percentage{
+    right:150px;
+}
+.search-btn{
+    right:270px;
+}
+
+table{
+    border-collapse: collapse;
+    position: absolute;
+    top:85px;
+
+    left:20px;
+    width:98%;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+/* .table{
+    position: absolute;
+    top:25px;
+    left: 20px;
+} */
+tr{
+    padding:5px;
+    
+    border-bottom: 1px solid white;
+}
+td{
+    padding:20px;
+}
