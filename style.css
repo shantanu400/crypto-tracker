@@ -1,11 +1,11 @@
 .body{
-    background-color: rgb(230, 133, 133);
+    background-color: rgb(156, 133, 249);
     
 }
 .coin-tracker{
     position: relative;
     width:100%;
-    background-color: black;
+    background-color: rgb(237, 157, 157);
     height:1000px;
 }
 .serach-bar{
@@ -18,7 +18,7 @@
     
     padding: 2px;
     text-align: left;
-    background-color: black;
+    background-color: rgb(230, 154, 154);
     color:white;
     border: 1px solid white;
 }
