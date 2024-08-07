@@ -54,11 +54,12 @@ function sortbyper() {
   show(data);
 }
 function serachCoin() {
-  console.log("we are inside searchcoin");
+  // console.log("we are inside searchcoin");
   let text = document.getElementById("search");
-  console.log("the text value is ", text.value);
+  // console.log("the text value is ", text.value);
   filtered_data = data.filter((element) => {
-    return element.name == text.value || element.symbol == text.value;
+    return element.name.toLowerCase().includes(text.value.toLowerCase()) || element.symbol.toLowerCase().includes(text.value.toLowerCase());
+   // return element.name == text.value || element.symbol == text.value;
   });
   console.log("filter data is ", filtered_data);
   if (filtered_data.length > 0) {
@@ -67,7 +68,7 @@ function serachCoin() {
     alert("Please enter valid Name or Symbol");
   }
 }
-document.getElementById("search-btn").addEventListener("click", serachCoin);
+document.getElementById("search").addEventListener("input", serachCoin);
 
 // let maindiv = document.createElement('div');
 // maindiv.setAttribute('id', 'maindiv');
