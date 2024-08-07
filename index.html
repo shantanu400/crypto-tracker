@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Crypto Tracker</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="coin-tracker">
-       
-         
-            <input id="search" class="serach-bar" type="text" placeholder="Search By Name or Symbol">
-            <button id="search-btn" class="search-btn" type="submit">Search</button>
-            <button onclick="sortbymkt()" class="sort-mkt">Sort By MKt Cap</button>
-      
-        
-           <button onclick="sortbyper()" class="sort-percentage"> Sort by percentage </button>
-           <div class="content">
-            <div class="item">
-                
-            </div>
-           </div>
-           <table id="table">
+      <input
+        id="search"
+        class="serach-bar"
+        type="text"
+        placeholder="Search By Name or Symbol"
+      />
+      <button id="search-btn" class="search-btn" type="submit">Search</button>
+      <button onclick="sortbymkt()" class="sort-mkt">Sort By MKt Cap</button>
 
-           </table>
-        
+      <button onclick="sortbyper()" class="sort-percentage">
+        Sort by percentage
+      </button>
+      <div class="content">
+        <div class="item"></div>
+      </div>
+      <table id="table"></table>
     </div>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
