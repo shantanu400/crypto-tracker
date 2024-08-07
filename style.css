@@ -1,11 +1,11 @@
-.body{
-    background-color: rgb(156, 133, 249);
+/* .body{
+    background-color: rgb(255, 255, 255);
     
-}
+} */
 .coin-tracker{
     position: relative;
     width:100%;
-    background-color: rgb(237, 157, 157);
+    /* background-color: rgb(255, 255, 255); */
     height:1000px;
 }
 .serach-bar{
@@ -18,9 +18,9 @@
     
     padding: 2px;
     text-align: left;
-    background-color: rgb(230, 154, 154);
-    color:white;
-    border: 1px solid white;
+    /* background-color: rgb(230, 154, 154); */
+    color:rgb(0, 0, 0);
+    border: 1px solid rgb(232, 57, 248);
 }
 
 .sort-mkt,.sort-percentage,.search-btn{
@@ -29,9 +29,9 @@
     right:20px;
     width:100px;
     height: 50px;
-    border: 1px solid white;
-    color:white;
-    background-color:rgb(163, 241, 204);
+    border: 3px solid rgb(255, 255, 94);
+    color:rgb(0, 0, 0);
+    /* background-color:rgb(163, 241, 204); */
 
 }
 .sort-percentage{
@@ -48,9 +48,9 @@ table{
 
     left:20px;
     width:98%;
-    border: 1px solid white;
-    background-color: black;
-    color: white;
+    border: 5px solid rgb(249, 73, 73);
+    /* background-color: rgb(0, 0, 0); */
+    color: rgb(0, 0, 0);
 }
 /* .table{
     position: absolute;
@@ -60,7 +60,7 @@ table{
 tr{
     padding:5px;
     
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(243, 137, 137);
 }
 td{
     padding:20px;

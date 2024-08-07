@@ -355,5 +355,30 @@ function serachCoin(){
 
 }
 document.getElementById("search-btn").addEventListener("click",serachCoin);
+
+// let maindiv = document.createElement('div');
+// maindiv.setAttribute('id', 'maindiv');
+// let bodyContent = document.body.innerHTML;
+// document.body.innerHTML = ""; // clear the body
+// maindiv.innerHTML = bodyContent; // set the content of the div to the original body content
+// let theme = document.createElement('button');
+// theme.textContent='change theme'; // assuming 'themes' is the text you want to set
+// theme.setAttribute('id','theme');
+// theme.style.backgroundColor='green'
+// document.body.appendChild(theme);
+// document.body.appendChild(maindiv); // append the div to the body
+// let changetheme=true;
+
+// document.getElementById('theme').addEventListener('click',()=>{
+//   changetheme=!changetheme
+//   let maindiv = document.getElementById('maindiv');
+  
+//   let allChildren = maindiv.querySelectorAll('*');
+//   for(let i=0; i < allChildren.length; i++){
+//     allChildren[i].style.color=changetheme?"white":'black';
     
+//     allChildren[i].style.backgroundColor=changetheme?"black":'white'
+//   }
+//   document.body.style.backgroundColor=changetheme?"black":'white'
+// })
 
