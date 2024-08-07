@@ -1,7 +1,7 @@
-/* .body{
-    background-color: rgb(255, 255, 255);
+*{
+    background-color: rgb(0, 0, 0);
     
-} */
+}
 .coin-tracker {
   position: relative;
   width: 100%;
@@ -19,7 +19,7 @@
   padding: 2px;
   text-align: left;
   /* background-color: rgb(230, 154, 154); */
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border: 1px solid rgb(232, 57, 248);
 }
 
@@ -32,7 +32,7 @@
   width: 100px;
   height: 50px;
   border: 3px solid rgb(255, 255, 94);
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   /* background-color:rgb(163, 241, 204); */
 }
 .sort-percentage {
@@ -51,7 +51,7 @@ table {
   width: 98%;
   border: 5px solid rgb(249, 73, 73);
   /* background-color: rgb(0, 0, 0); */
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 /* .table{
     position: absolute;
